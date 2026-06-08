@@ -183,14 +183,13 @@ npm run dev
 
 # 🔄 Git Flow
 
-## 📌 Quy trình làm việc nhóm
-
-Mỗi thành viên làm việc trên một branch riêng theo MSSV.
+## 📌 Quy trình làm việc
+Làm việc trên một branch riêng.
 
 Ví dụ:
 
 ```bash
-git checkout -b N23DVCN025
+git checkout -b dev
 ```
 
 ---
@@ -216,30 +215,8 @@ git commit -m "feat: hoàn thành giao diện đăng nhập"
 ## 🚀 Push code lên GitHub
 
 ```bash
-git push origin N23DVCN025
+git push origin dev
 ```
-
----
-
-## 🔍 Pull Request Workflow
-
-1. Tạo Pull Request trên GitHub
-2. Leader review code
-3. Sửa lỗi nếu có comment
-4. Leader merge vào `main`
-
-> ⚠️ Thành viên KHÔNG được tự ý merge Pull Request.
-
----
-
-# 👥 Phân chia công việc
-
-| Thành viên | Vai trò                | Nhiệm vụ                     |
-| ---------- | ---------------------- | ---------------------------- |
-| Phạm Hoàng Quốc Huy          | Leader / Frontend Lead | Setup project, UI/UX, Deploy |
-| Nguyễn Trung Hiếu            | Backend Lead           | Database, JWT, API           |
-| Nguyễn Hữu Đức               | Candidate Logic        | CV, ứng tuyển, PDF           |
-| Trương Đình Tấn Tài          | Admin & Employer       | Dashboard, Notification      |
 
 ---
 
